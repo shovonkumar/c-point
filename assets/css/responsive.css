@@ -1,0 +1,85 @@
+
+/* ===== Medium Devices ===== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .slider p {
+        width: 85%;
+    }
+    .team .team-overlay {
+     padding: 0.5rem !important;
+    }
+    .team .team-overlay .social-icon {
+     gap: 8px !important;
+    }
+    .team-image .team-overlay a i {
+        font-size: 0.9rem;
+        padding: 0.2rem 0.45rem;
+    }
+    .team-overlay .team-name {
+        margin-top: 1rem !important;
+    }
+    .team-overlay .team-name h6 {
+        font-size: 1.15rem;
+    }
+    .team-overlay .team-name p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* ===== Small Devices ===== */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .slider p {
+       width: 90%;
+   }
+   .team .team-overlay {
+    padding: 1.5rem !important;
+   }
+   .team .team-overlay .social-icon {
+    gap: 2rem !important;
+   }
+   .team-overlay .team-name {
+    margin-top: 10rem !important;
+    }
+}
+
+/* ===== Extra Small Devices ===== */
+
+@media (max-width: 575.99px) {
+
+    .offcanvas {
+        max-width: 70% !important;
+    }
+    .slider {
+       padding: 8rem 0;
+    }
+    .slider p {
+       width: 100%;
+   }
+   .slider .slider-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    }
+    .portfolio-filter button {
+        padding: 0.3rem 0.7rem 0.2rem !important;
+    }
+    .team .team-overlay {
+        padding: 1rem !important;
+    }
+    .team .team-overlay .social-icon {
+        gap: 1rem !important;
+    }
+    .team-image .team-overlay a i {
+        font-size: 1.1rem;
+        padding: 0.3rem 0.6rem;
+    }
+    .team-overlay .team-name {
+        margin-top: 2rem !important;
+    }
+}
